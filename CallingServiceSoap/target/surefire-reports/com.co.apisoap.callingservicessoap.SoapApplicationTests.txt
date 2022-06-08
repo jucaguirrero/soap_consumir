@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: com.co.apisoap.callingservicessoap.SoapApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.444 s <<< FAILURE! - in com.co.apisoap.callingservicessoap.SoapApplicationTests
+unLockUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'marshaller' defined in com.co.apisoap.callingservicessoap.ConfigurationHello: Invocation of init method failed; nested exception is org.springframework.oxm.UncategorizedMappingException: Unknown JAXB exception; nested exception is javax.xml.bind.JAXBException: Provider com.sun.xml.internal.bind.v2.ContextFactory could not be instantiated: javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index
+ - with linked exception:
+[javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index]
+Caused by: org.springframework.oxm.UncategorizedMappingException: 
+Unknown JAXB exception; nested exception is javax.xml.bind.JAXBException: Provider com.sun.xml.internal.bind.v2.ContextFactory could not be instantiated: javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index
+ - with linked exception:
+[javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index]
+Caused by: javax.xml.bind.JAXBException: Provider com.sun.xml.internal.bind.v2.ContextFactory could not be instantiated: javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index
+Caused by: javax.xml.bind.JAXBException: "com.cdyne.ws.weatherws" no contiene ObjectFactory.class ni jaxb.index
+

@@ -1,0 +1,9 @@
+org\tempuri\package-info.class
+com\co\apisoap\callingservicessoap\SOAPConnectClient.class
+org\tempuri\ComunityBIdService.class
+org\tempuri\ObjectFactory.class
+org\tempuri\Request.class
+org\tempuri\Response.class
+com\co\apisoap\callingservicessoap\ConfigurationHello.class
+com\co\apisoap\callingservicessoap\SoapApplication.class
+org\tempuri\ComunityBIdSoapPort.class
